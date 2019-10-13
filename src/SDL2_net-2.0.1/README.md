@@ -1,1 +1,1 @@
-Unpack SDL2_net-2.0.1.gz to this directory
+Unpack SDL2_net-2.0.1.tar.gz to this directory
