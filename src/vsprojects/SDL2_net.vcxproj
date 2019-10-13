@@ -239,17 +239,17 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\SDL2_net\SDLnetsys.h" />
-    <ClInclude Include="..\SDL2_net\SDL_net.h" />
+    <ClInclude Include="..\SDL2_net-2.0.1\SDLnetsys.h" />
+    <ClInclude Include="..\SDL2_net-2.0.1\SDL_net.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SDL2_net\SDLnet.c" />
-    <ClCompile Include="..\SDL2_net\SDLnetselect.c" />
-    <ClCompile Include="..\SDL2_net\SDLnetTCP.c" />
-    <ClCompile Include="..\SDL2_net\SDLnetUDP.c" />
+    <ClCompile Include="..\SDL2_net-2.0.1\SDLnet.c" />
+    <ClCompile Include="..\SDL2_net-2.0.1\SDLnetselect.c" />
+    <ClCompile Include="..\SDL2_net-2.0.1\SDLnetTCP.c" />
+    <ClCompile Include="..\SDL2_net-2.0.1\SDLnetUDP.c" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\SDL2_net\VisualC\Version.rc" />
+    <ResourceCompile Include="..\SDL2_net-2.0.1\VisualC\Version.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
